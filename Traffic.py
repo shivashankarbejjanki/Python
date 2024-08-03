@@ -7,3 +7,5 @@ elif(light == "green"):
     print("Go")
 else:
     print("lights are not working")
+
+    
