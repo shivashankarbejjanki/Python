@@ -47,3 +47,15 @@ x = bool(5)	                                    #bool
 x = bytes(5)	                                #bytes	
 x = bytearray(5)	                            #bytearray	
 x = memoryview(bytes(5))	                    #memoryview	
+
+
+# To verify the type of any object in Python, use the type() function;
+
+x = 1
+y = 2.8
+z = 1j
+
+print(type(x))
+print(type(y))
+print(type(z))
+
