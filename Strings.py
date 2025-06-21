@@ -89,3 +89,37 @@ Check if "Bejjanki" is NOT present in the following text:'''
 
 txt = "This is shiva shankara chary!"
 print("Bejjanki" not in txt)
+
+
+message = "shiva shankar"
+print(message[0:5])   # start index and end index but here first index is Inclusive i.e Includes and last index is not included.
+
+message = "shiva shankar"
+print(message[3:])  # Here only given starting index then it prints from Index3 to all i. va shankar.
+                    # This is called Slicing.
+
+message = "shiva shankar"
+print(message[:10]) 
+
+
+message = "SHIVA SHANKAR"
+print(message.lower())       # This method is called Lowercase Method 
+message = "shiva shankar"
+print(message.upper())      # This method is called Uppercase Method
+
+message = "shiva shankar"
+print(message.count('a'))   # By using count Method you can know how many times a letter or word repeating.
+
+message = "shiva shankar"
+print(message.count('shankar'))
+
+# Replace method; 
+message = "shiva shankar"
+new_essage=message.replace('shankar','Bejjanki')
+print(new_essage)             # replacing the word with other
+
+# Concatinating
+first_name = 'welcome'
+second_name = 'shiva'
+combine  = first_name + ' ' +second_name
+print(combine)
