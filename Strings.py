@@ -49,3 +49,43 @@ Loop through the letters in the word "banana":'''
 
 for x in "Baahubali":
   print(x)
+
+
+
+  '''String Length
+To get the length of a string, use the len() function.
+
+Example
+The len() function returns the length of a string:'''
+
+a = "shiva, shankar"
+print(len(a))
+
+x = "The Alchemist by paulo ceolo"
+print(type(x))
+print(len(x))
+
+
+
+'''Check String
+To check if a certain phrase or character is present in a string, we can use the keyword in.
+
+Example
+Check if "Bejjanki" is present in the following text:'''
+
+txt = "This is shiva shankara chary Bejjanki"
+print("Bejjanki" in txt)
+
+txt = "This is shiva shankara chary Bejjanki"
+print("Man" in txt)
+
+
+
+'''Check if NOT
+To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+
+Example
+Check if "Bejjanki" is NOT present in the following text:'''
+
+txt = "This is shiva shankara chary!"
+print("Bejjanki" not in txt)
