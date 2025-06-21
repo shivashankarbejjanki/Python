@@ -15,3 +15,37 @@ print('Hello')
 print("It's alright")
 print("He is called 'shiva'")
 print('He is called "shiva"')
+
+
+
+
+#Assign String to a Variable
+#Assigning a string to a variable is done with the variable name followed by an equal sign and the string:
+
+#Example;
+a = "shiva"
+print(a)
+
+
+
+'''Multiline Strings
+You can assign a multiline string to a variable by using three quotes:
+
+Example
+You can use three double quotes:""" or '''
+
+a = '''Hello, my name is Shiva, and I recently completed my Bachelor of Technology in Computer Science from vidya Jyothi institute of technology in the year of 2024. While I come from a technical background, I am now looking for opportunities in non-IT roles where I can contribute with my strengths and grow professionally.
+'''
+print(a)
+
+
+
+
+'''Looping Through a String
+Since strings are arrays, we can loop through the characters in a string, with a for loop.
+
+Example
+Loop through the letters in the word "banana":'''
+
+for x in "Baahubali":
+  print(x)
