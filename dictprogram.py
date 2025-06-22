@@ -26,4 +26,5 @@ student = {
     }
 }
 
+print(student)
 print(student["subjects"]["chem"])

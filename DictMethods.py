@@ -3,7 +3,7 @@
 student = {
     "name" : "shiva",
     "Roll_no" : 1201,
-    "Grade" : "Fisrt class"
+    "Grade" : "First class"
 }
 
 print(len(list(student.keys())))
